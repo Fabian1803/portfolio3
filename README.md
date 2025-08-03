@@ -4,7 +4,7 @@ Un clon personalizado de la página principal de Google desarrollado con **Vue.j
 
 ## 📸 Vista Previa
 
-![Vista previa del proyecto](./src/assets/log.png)
+![Vista previa del proyecto](./src/assets/cap1.png)
 
 ## ✨ Características
 
@@ -74,12 +74,12 @@ Analiza y corrige archivos
 
 ```
 src/
-├── assets/          # Imágenes y recursos estáticos
+├── assets/          # Imágenes y recursos
 │   ├── logo.png
 │   └── icon/
 │       ├── camaraIcon.png
 │       └── microIcon.png
-├── components/      # Componentes Vue reutilizables
+├── components/      # Componentes
 │   ├── home/
 │   │   ├── HomeHeader.vue
 │   │   ├── HomeMain.vue
