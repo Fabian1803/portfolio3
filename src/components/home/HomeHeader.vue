@@ -20,15 +20,15 @@
     display: flex;
     gap: 10px;
     justify-content: end;
-    height: 60px;
     align-items: center;
+    height: 100%;
     padding-right: 15px;
 }
 
 .iconos{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 9px;
 }
 
 .iconMenu {
