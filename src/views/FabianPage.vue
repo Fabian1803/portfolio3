@@ -1,7 +1,9 @@
 <template>
+  <div class="container">
     <FabianHeader />
     <FabianMain />
     <FabianFooter />
+  </div>
 </template>
 
 <script>
@@ -17,4 +19,15 @@ export default {
 </script>
 
 <style>
+.container {
+  display: grid;
+  grid-template-rows: 130px auto 95px;
+  height: 100%;
+}
+
+@media (max-width: 600px) {
+  .container {
+    grid-template-rows: 60px auto 140px;
+  }
+}
 </style>
