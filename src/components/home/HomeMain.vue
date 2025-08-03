@@ -2,7 +2,7 @@
     <main class="mainHome">
         <div class="contMain">
             <div class="titleHome">
-                <img src="../../assets/log.png" alt="GoogleIcon" height="100">
+                <img src="../../assets/log.png" alt="GoogleIcon" height="100" class="googleLogo">
             </div>
             <div class="inputMain">
                 <font-awesome-icon icon="magnifying-glass" />
@@ -14,7 +14,7 @@
                 <router-link to="/fabian">Buscar en Google</router-link>
                 <router-link to="/fabian">Voy a tener suerte</router-link>
             </div>
-            <p style="font-size: 16px;">Google disponible en: Español (Latinoamérica)</p>
+            <p class="language">Google disponible en: Español (Latinoamérica)</p>
         </div>
     </main>
 </template>
@@ -83,14 +83,31 @@
     text-align: center;
 }
 
-@media (max-width: 1200px) {
+.language {
+    font-size: 16px;
 }
+
+@media (max-width: 1200px) {}
 
 @media (max-width: 600px) {
     .contMain {
         width: 100%;
         max-width: 100%;
         padding: 0 3% 0 3%;
+    }
+}
+
+@media (max-width: 370px) {
+    .googleLogo {
+        height: 80px;
+    }
+
+    .inputMain {
+        grid-template-columns: 8% auto 8% 8%;
+    }
+
+    .language {
+        font-size: 14px;
     }
 }
 </style>
