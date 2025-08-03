@@ -97,13 +97,13 @@
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 450px) {
     .googleLogo {
         height: 80px;
     }
 
     .inputMain {
-        grid-template-columns: 8% auto 8% 8%;
+        grid-template-columns: 6% auto 6% 6%;
     }
 
     .language {
