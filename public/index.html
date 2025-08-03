@@ -1,15 +1,70 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
+    <!-- Favicon -->
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    
+    <!-- SEO Meta Tags -->
+    <title>Fabián Portfolio | Projects</title>
+    <meta name="description" content="Google-inspired portfolio showcasing Fabián's web development projects. Built with Vue.js 3 to display frontend development skills and creative projects.">
+    <meta name="keywords" content="Fabián, Portfolio, Vue.js, JavaScript, Frontend Developer, Web Development, Projects, CSS, HTML, Google Design">
+    <meta name="author" content="Fabián">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fabian1803.github.io/portfolio3/">
+    <meta property="og:title" content="Fabián Portfolio - Google-Inspired Project Showcase">
+    <meta property="og:description" content="Explore Fabián's web development projects in this Google-inspired portfolio. Showcasing frontend skills with Vue.js and modern web technologies.">
+    <meta property="og:image" content="https://fabian1803.github.io/portfolio3/src/assets/log.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Fabián Portfolio">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://fabian1803.github.io/portfolio3/">
+    <meta property="twitter:title" content="Fabián Portfolio - Google-Inspired Project Showcase">
+    <meta property="twitter:description" content="Explore Fabián's web development projects in this Google-inspired portfolio built with Vue.js.">
+    <meta property="twitter:image" content="https://fabian1803.github.io/portfolio3/src/assets/log.png">
+    <meta property="twitter:creator" content="@Fabian1803">
+    
+    <!-- Additional Meta Tags -->
+    <meta name="theme-color" content="#4285f4">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Fabián Portfolio">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Fabián",
+      "jobTitle": "Frontend Developer",
+      "url": "https://github.com/Fabian1803/portfolio3/",
+      "sameAs": [
+        "https://github.com/Fabian1803",
+        "https://www.linkedin.com/in/fabi%C3%A1n-mauro-rivera-morales/"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance"
+      },
+      "knowsAbout": ["Vue.js", "JavaScript", "CSS", "HTML", "Frontend Development", "Web Design"],
+      "description": "Frontend Developer specializing in Vue.js and modern web technologies. Creator of Google-inspired portfolio showcasing web development projects."
+    }
+    </script>
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>We're sorry but this portfolio doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
   </body>

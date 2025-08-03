@@ -4,7 +4,7 @@ Un clon personalizado de la página principal de Google desarrollado con **Vue.j
 
 ## 📸 Vista Previa
 
-![Vista previa del proyecto](./screenshot.png)
+![Vista previa del proyecto](./src/assets/log.png)
 
 ## ✨ Características
 
